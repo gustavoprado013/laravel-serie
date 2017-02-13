@@ -1,0 +1,21 @@
+{
+  "name": "laravel-angular-client",
+  "homepage": "",
+  "description": "",
+  "main": "",
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-resource": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "materialize": "^0.97.8",
+    "jquery": "^3.1.1"
+  }
+}
