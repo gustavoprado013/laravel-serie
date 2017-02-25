@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('notes', 'NoteController');
+
+Route::group(['middleware' => 'cors'], function () {
+
+
+
+});

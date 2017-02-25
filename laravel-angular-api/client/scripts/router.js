@@ -5,9 +5,14 @@ angular.module('Client', ['ngResource', 'ngRoute'])
 
     $routeProvider
     .when('/notes', {
-      templateUrl: 'views/note/note.html',
+      templateUrl: 'views/note/index.html',
       controller: 'IndexNoteCtrl'
-    }).otherwise({
+    })
+    .when('/notes/new', {
+      templateUrl: 'views/note/create.html',
+      controller: 'CreateNoteCtrl'
+    })
+    .otherwise({
       redirectTo: '/'
     });
 
